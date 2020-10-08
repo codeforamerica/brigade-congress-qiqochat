@@ -2,11 +2,11 @@
 @import "base";
 
 body {
-  color: #5a5a5a;
+  color: $color-gray-dark;
 }
 
 #navbar {
-  background-color: #aa1a37;
+  background-color: $color-primary-dark;
   color: #fff;
-  border-bottom-color: #aa1a37 !important;
+  border-bottom-color: $color-primary-dark !important;
 }
