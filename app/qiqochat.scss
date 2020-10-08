@@ -14,10 +14,24 @@ body {
   &-success {
     background-color: $color-red;
     color: #fff;
-    border-color: $color-red;
+    border-color: $color-dark-red;
 
     &:hover {
       background-color: $color-dark-red;
+      border-color: $color-dark-red;
+    }
+  }
+
+  &-primary {
+    background-color: $color-lightest-gray;
+    color: $color-darkest-gray;
+    border-color: $color-darkest-gray;
+    font-weight: bold;
+
+    &:hover {
+      color: $color-darkest-gray;
+      background-color: $color-light-gray;
+      border-color: $color-darkest-gray;
     }
   }
 }
