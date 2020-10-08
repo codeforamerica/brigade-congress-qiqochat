@@ -1,6 +1,11 @@
 // styles in this file only apply to the Qiqochat wrapper page
 @import "base";
 
+:root {
+  --success: $color-red;
+  --primary: $color-light-gray;
+}
+
 body {
   color: $color-gray-dark;
 }
@@ -32,6 +37,10 @@ body {
   .linklike {
     color: #fff;
   }
+}
+
+.custom_heading_a2 {
+  color: $color-white;
 }
 
 #show_main_top_menu {
