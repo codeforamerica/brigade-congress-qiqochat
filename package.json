@@ -9,8 +9,11 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass-brunch": "^3.0.0"
+  },
   "devDependencies": {
+    "@codeforamerica/style": "^5.0.1",
     "auto-reload-brunch": "^2",
     "brunch": "^3",
     "clean-css-brunch": "^3",
