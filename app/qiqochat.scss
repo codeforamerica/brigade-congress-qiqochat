@@ -5,8 +5,59 @@ body {
   color: $color-gray-dark;
 }
 
+// //////////////////////////////////////////////////////////////////
+// GLOBAL
+// //////////////////////////////////////////////////////////////////
+.btn {
+  border-radius: 0;
+
+  &-success {
+    background-color: $color-red;
+    color: #fff;
+
+    &:hover {
+      background-color: $color-dark-red;
+    }
+  }
+}
+
+// //////////////////////////////////////////////////////////////////
+// NAVBAR & TOP OF PAGE
+// //////////////////////////////////////////////////////////////////
 #navbar {
-  background-color: $color-primary-dark;
+  background-color: $color-primary;
   color: #fff;
-  border-bottom-color: $color-primary-dark !important;
+  border-bottom-color: $color-primary !important;
+
+  .linklike {
+    color: #fff;
+  }
+}
+
+#show_main_top_menu {
+  background-color: $color-light-gray;
+  color: $color-black;
+}
+
+#main_top_menu {
+  color: $color-black;
+  background: $color-light-gray;
+
+  .whitish_linklike {
+    &, &:visited, &:hover, a {
+      color: #000;
+    }
+  }
+}
+
+// //////////////////////////////////////////////////////////////////
+// EVENT LANDING PAGE
+// //////////////////////////////////////////////////////////////////
+#start-time-background {
+  background-color: $color-white !important;
+  color: $color-darkest-gray !important;
+
+  .custom_heading_a1 {
+    color: $color-darkest-gray !important;
+  }
 }
