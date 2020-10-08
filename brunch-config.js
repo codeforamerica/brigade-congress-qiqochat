@@ -1,10 +1,12 @@
-
 exports.files = {
   javascripts: {
     joinTo: 'app.js'
   },
   stylesheets: {
-    joinTo: 'app.css'
+    joinTo: {
+      'qiqochat.css': /qiqochat/,
+      'app.css': /^(?!:qiqochat)/
+    }
   }
 };
 
