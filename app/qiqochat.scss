@@ -1,8 +1,18 @@
 // styles in this file only apply to the Qiqochat wrapper page
 @import "base";
 
+%page-background {
+  background-color: #f5f5f6 !important;
+}
+
 body {
+  @extend %page-background;
+
   color: $color-gray-dark;
+}
+
+#video_sidebar {
+  @extend %page-background;
 }
 
 // //////////////////////////////////////////////////////////////////
@@ -108,4 +118,9 @@ body {
 .breakouts-iframe-index-button {
   border-bottom: 1px solid $color-gray;
   margin-right: 20px;
+  border-width: 0 0 1px 0;
+
+  &.btn-primary {
+    border-width: 1px;
+  }
 }
