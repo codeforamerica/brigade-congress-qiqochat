@@ -28,7 +28,8 @@ body {
 
   &:hover, &-outline-primary:hover {
     border: 1px solid $color-darkest-gray;
-    background-color: $color-lightest-gray;
+    background-color: $color-light-gray;
+    color: $color-darkest-gray;
   }
 
   &-success {
@@ -122,13 +123,14 @@ body {
 }
 
 .breakouts-iframe-index-button {
-  border-bottom: 1px solid $color-gray;
+  border-bottom: 1px solid;
+  border-color: $color-lightest-gray $color-lightest-gray $color-dark-gray;
   margin-right: 20px;
   margin-bottom: 10px;
-  border-width: 0 0 1px 0;
+  border-width: 1px;
 
   &.btn-primary {
-    border-width: 1px;
+    border-color: $color-darkest-gray;
   }
 }
 
@@ -140,6 +142,8 @@ body {
 }
 
 .conference_call_breakouts_subsubcontainer {
+  margin-bottom: 0px !important;
+
   .smaller_text { // Session title
     margin-bottom: 10px;
   }
