@@ -115,6 +115,12 @@ body {
 // //////////////////////////////////////////////////////////////////
 // BREAKOUT ROOM PAGE
 // //////////////////////////////////////////////////////////////////
+.participation_sidebar {
+  div { // Breakout room image/logo
+    background-size: contain;
+  }
+}
+
 .breakouts-iframe-index-button {
   border-bottom: 1px solid $color-gray;
   margin-right: 20px;
