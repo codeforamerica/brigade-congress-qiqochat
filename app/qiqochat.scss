@@ -11,6 +11,16 @@ body {
 .btn {
   border-radius: 0;
 
+  &, &-outline-primary {
+    color: $color-darkest-gray;
+    border-color: $color-darkest-gray;
+  }
+
+  &:hover {
+    border: 1px solid $color-darkest-gray;
+    background-color: $color-lightest-gray;
+  }
+
   &-success {
     background-color: $color-red;
     color: #fff;
@@ -90,4 +100,12 @@ body {
   .custom_heading_a1 {
     color: $color-darkest-gray !important;
   }
+}
+
+// //////////////////////////////////////////////////////////////////
+// BREAKOUT ROOM PAGE
+// //////////////////////////////////////////////////////////////////
+.breakouts-iframe-index-button {
+  border-bottom: 1px solid $color-gray;
+  margin-right: 20px;
 }
