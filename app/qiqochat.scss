@@ -26,7 +26,7 @@ body {
     border-color: $color-darkest-gray;
   }
 
-  &:hover {
+  &:hover, &-outline-primary:hover {
     border: 1px solid $color-darkest-gray;
     background-color: $color-lightest-gray;
   }
@@ -131,4 +131,10 @@ body {
   line-height: 40px;
   top: 0 !important;
   padding: 0 10px !important;
+}
+
+.conference_call_breakouts_subsubcontainer {
+  .smaller_text { // Session title
+    margin-bottom: 10px;
+  }
 }
