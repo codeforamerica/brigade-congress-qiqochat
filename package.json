@@ -10,6 +10,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
+    "copycat-brunch": "^1.1.1",
     "sass-brunch": "^3.0.0"
   },
   "devDependencies": {

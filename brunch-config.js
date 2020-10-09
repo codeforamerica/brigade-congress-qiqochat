@@ -11,5 +11,8 @@ exports.files = {
 };
 
 exports.plugins = {
-  sass: {}
+  sass: {},
+  copycat: {
+    images: ["app/images"],
+  }
 };
