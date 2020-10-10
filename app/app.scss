@@ -1,2 +1,43 @@
 @import "base";
 @import "./node_modules/@codeforamerica/style/_sass/main";
+
+.congress-schedule {
+  display: grid;
+}
+
+.congress-schedule__legend {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid;
+}
+
+.congress-schedule__time {
+  padding: 10px;
+}
+.congress-schedule__item {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid;
+  font-weight: 600;
+}
+
+[data-session-type="Skillshare"],
+[data-session-type="Session"],
+[data-session-type="Discussion"],
+[data-session-type="Lightening Talks"]
+{
+  border-color: rgba($color-darkest-blue, 0.4);
+}
+
+[data-session-type="Keynote"],
+[data-session-type="Staff Intro"]
+{
+  border-color: rgba($color-darkest-red, 0.4);
+}
+
+[data-session-type="Unconference"]
+{
+  border-color: rgba($color-caution, 0.4);
+}
