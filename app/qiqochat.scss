@@ -34,12 +34,13 @@ body {
 
   &-success {
     background-color: $color-red;
-    color: #fff;
     border-color: $color-dark-red;
+    color: #fff;
 
     &:hover {
       background-color: $color-dark-red;
       border-color: $color-dark-red;
+      color: #fff;
     }
   }
 
