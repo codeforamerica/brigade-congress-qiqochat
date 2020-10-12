@@ -73,6 +73,15 @@ body {
   .custom_heading_a2 {
     color: $color-white;
   }
+
+  > .smaller_text { // "Create Guest Username"
+    background-color: $color-primary !important;
+    color: $color-primary;
+  }
+
+  #choose_guest_username div {
+    color: $color-white;
+  }
 }
 
 #show_main_top_menu {
