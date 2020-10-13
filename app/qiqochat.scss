@@ -152,7 +152,8 @@ body {
 }
 
 .conference_call_breakouts_subsubcontainer {
-  margin-bottom: 0px !important;
+  border-top: 1px solid;
+  padding-bottom: 0px !important;
 
   .smaller_text { // Session title
     margin-bottom: 10px;
